@@ -1,0 +1,26 @@
+baseURL = 'https://impala67d.github.io/dz3/'
+languageCode = 'ru-ru'
+title = 'Мой Потрясающий Сайт'
+theme = 'Blowfish'
+
+[author]
+  name = 'Я Иван Сидоренко'
+[params]  
+  description = 'ну наверно сайт о том кто я такой, что то типа моего тгк только моего сайта'
+  
+  [params.author]
+    name = "Я Иван Сидоренко"
+
+[menu]
+  [[menu.main]]
+    name = 'Главная'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'о себе'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'тгк в сайте'
+    url = '/posts/'
+    weight = 3
